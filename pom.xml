@@ -8,6 +8,12 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<repositories>
+		<repository>
+			<id>custom-maven-repo</id> <!-- 아무거나 적당히 -->
+			<url>https://github.com/skytelan3/maven-repo/tree/master/releases</url> <!-- groupId/artifactId 위치 전 까지의 경로 -->
+		</repository>
+	</repositories>
 	<groupId>com.watchtek.watchall</groupId>
 	<artifactId>Smis_Collector</artifactId>
 	<version>1.0.0</version>
