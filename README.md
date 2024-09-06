@@ -3,7 +3,7 @@
 2. generated-resurces/properties/내용물을 dist/resources/properties 에 넣음
 3. cmd 창을 열고, dist로 이동하여 java -jar Smis_Collector.jar 수행 해봄
 
-# 사용자 확인 사항
+# 사용자 확인 사항 (확인사항)
 1. resources/properties/smis.properties 수정
 
 ## SMI-S Config
