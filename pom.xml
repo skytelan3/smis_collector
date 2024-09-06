@@ -11,7 +11,7 @@
 	<repositories>
 		<repository>
 			<id>custom-maven-repo</id> <!-- 아무거나 적당히 -->
-			<url>https://github.com/skytelan3/maven-repo/tree/master/releases</url> <!-- groupId/artifactId 위치 전 까지의 경로 -->
+			<url>https://github.com/skytelan3/maven-repo/tree/main/releases</url> <!-- groupId/artifactId 위치 전 까지의 경로 -->
 		</repository>
 	</repositories>
 	<groupId>com.watchtek.watchall</groupId>
@@ -231,8 +231,8 @@
 		<!-- CUSTOM -->
 		<dependency> 
 			<groupId>custom</groupId> 
-			<artifactId>sblim-cim-client2-2.2.5</artifactId> 
-			<version>1.0</version> 
+			<artifactId>sblim-cim-client2</artifactId> 
+			<version>2.2.5</version> 
 		</dependency>
 	</dependencies>
 </project>
