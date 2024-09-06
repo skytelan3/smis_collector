@@ -231,8 +231,8 @@
 		<!-- CUSTOM -->
 		<dependency> 
 			<groupId>custom</groupId> 
-			<artifactId>sblim-cim-client2-2.2.5</artifactId> 
-			<version>1.0</version> 
+			<artifactId>sblim-cim-client2</artifactId> 
+			<version>2.2.5</version> 
 		</dependency>
 	</dependencies>
 </project>
