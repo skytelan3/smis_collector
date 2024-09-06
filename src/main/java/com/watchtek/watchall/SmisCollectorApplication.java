@@ -196,4 +196,10 @@ public class SmisCollectorApplication
             client.close();
         }
     }
+
+    private void notUsedMethod()
+    {
+        int a = 1;
+        Integer b = null;
+    }
 }
