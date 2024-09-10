@@ -12,7 +12,7 @@
 		<repository>
 			<id>custom-maven-repo</id> <!-- 아무거나 적당히 -->
 			<name> custom maven repo</name>
-			<url>https://github.com/skytelan3/maven-repo/tree/main/releases</url> <!-- groupId/artifactId 위치 전 까지의 경로 -->
+			<url>https://github.com/skytelan3/maven-repo/raw/main/releases</url> <!-- groupId/artifactId 위치 전 까지의 경로 -->
 		</repository>
 		<repository>
 			<id>central.maven.org</id>
