@@ -1,5 +1,7 @@
 package com.watchtek.watchall;
 
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -8,6 +10,7 @@ import java.util.stream.Collectors;
 
 import javax.cim.CIMClass;
 import javax.cim.CIMInstance;
+import javax.net.ssl.X509TrustManager;
 import javax.wbem.client.WBEMClient;
 
 import org.slf4j.Logger;
@@ -197,9 +200,10 @@ public class SmisCollectorApplication
         }
     }
 
-    private void notUsedMethod()
+    private void notUsedMethod(Object obj)
     {
         int a = 1;
         Integer b = null;
+        boolean c = obj.equals("");
     }
 }
